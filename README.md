@@ -1,0 +1,1 @@
+[Algiers Developers Meetup](http://algiers-meetup.org/) is an event-driven community about software, web and mobile technologies. Meetups are held every month around a given topic related to programming.
