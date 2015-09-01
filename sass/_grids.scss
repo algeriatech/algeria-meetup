@@ -1,0 +1,35 @@
+$susy: (
+  columns: 4,
+  gutters: 1/4,
+  global-box-sizing:border-box,
+  debug:(
+		//image:show,
+		//output:overlay
+	)
+);
+
+$small:(
+	columns:8,
+	global-box-sizing:border-box,
+	debug:(
+		//image:show,
+		//output:overlay
+	)	
+);
+$medium:(
+	columns:12,
+	global-box-sizing:border-box,
+	debug:(
+		//image:show,
+		//output:overlay
+	)	
+);
+
+$large:(
+	columns:12,
+	global-box-sizing:border-box,
+	debug:(
+		//image:show,
+		//output:overlay
+	)	
+);

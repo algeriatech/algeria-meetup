@@ -1,0 +1,16 @@
+.navbar {
+	
+	.navbar-nav {
+		width:100%;
+	    text-align: center;
+	
+		> li {
+			float: none;
+			display: inline-block;
+			> a {
+				font-family: "Montserrat";
+				text-transform: uppercase;
+			}
+		}
+	}
+}

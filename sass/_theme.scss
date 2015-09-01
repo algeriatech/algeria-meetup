@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	//padding-top: $navbar-height;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Montserrat";
+}
+
+.container {
+	@include container;
+	padding-left: 15px;
+	padding-right:15px;
+	@include susy-breakpoint($screen-sm-min,$small)
+	{
+		@include container(53.571428571em);
+	}
+	@include susy-breakpoint($screen-md-min,$medium)
+	{
+		@include container(67.142857143em);
+	}
+
+	@include susy-breakpoint($screen-lg-min,$large)
+	{
+		@include container(85.714285714em);
+	}
+}

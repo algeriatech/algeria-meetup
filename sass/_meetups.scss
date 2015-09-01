@@ -1,0 +1,15 @@
+.section-meetups {
+		@include clearfix;
+	.speaker {
+		@include gallery(12 of 12);
+		float: none;
+		@include susy-breakpoint($screen-md-min,$medium) {
+			@include gallery(4 of 12);
+		}
+		overflow: hidden;
+		@include margin-trailer(2);
+		img {
+			width: 100%;
+		}
+	}
+}

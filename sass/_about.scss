@@ -1,0 +1,8 @@
+.section-about {
+	.section-content {
+		@include susy-breakpoint($screen-md-min,$medium) {
+			@include squish(span(1));
+		}
+		text-align:center;
+	}
+}

@@ -1,0 +1,23 @@
+.section {
+	display:table;
+	width:100%;
+	> .content-wrapper {
+		display: table-cell;
+		vertical-align: middle;
+		width:100%;
+	}
+
+	&-header {
+		text-align: center;
+	}
+	&-title {
+		text-transform: uppercase;
+		text-align: center;
+	}
+	
+	&-content {
+		p {
+			@include adjust-font-size-to(22px);
+		}
+	}	
+}
