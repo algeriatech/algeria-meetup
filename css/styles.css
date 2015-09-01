@@ -8190,7 +8190,7 @@ tbody.collapse.in {
 }
 /* line 10, ../sass/_navbar.scss */
 .navbar .navbar-nav > li > a {
-  font-family: "Montserrat";
+  font-family: "Montserrat",sans-serif;
   text-transform: uppercase;
 }
 
@@ -8208,24 +8208,79 @@ tbody.collapse.in {
 /* line 10, ../sass/_section.scss */
 .section-header {
   text-align: center;
+  margin-bottom: 6.85714286em;
 }
-/* line 13, ../sass/_section.scss */
+/* line 14, ../sass/_section.scss */
 .section-title {
   text-transform: uppercase;
   text-align: center;
+  position: relative;
 }
-/* line 19, ../sass/_section.scss */
+/* line 18, ../sass/_section.scss */
+.section-title:after {
+  background-color: #000;
+  height: 3px;
+  content: '';
+  width: 100px;
+  top: 152%;
+  left: 46%;
+  position: absolute;
+}
+/* line 31, ../sass/_section.scss */
 .section-content p {
   font-size: 1.57142857em;
   line-height: 2.18181818em;
 }
 
-/* line 2, ../sass/_about.scss */
+/* line 1, ../sass/_intro.scss */
+.section-intro {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(60deg, #FDE3A7, #C5EFF7);
+  background-image: -o-linear-gradient(60deg, #FDE3A7, #C5EFF7);
+  background-image: linear-gradient(60deg, #fde3a7, #c5eff7);
+  text-align: center;
+}
+/* line 5, ../sass/_intro.scss */
+.section-intro h1, .section-intro h2, .section-intro .date-location {
+  margin-bottom: 1.71428571em;
+}
+/* line 8, ../sass/_intro.scss */
+.section-intro__logos {
+  list-style-type: none;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.42857143em;
+}
+/* line 13, ../sass/_intro.scss */
+.section-intro__logos > li {
+  text-align: center;
+  width: 6.77966102%;
+  display: inline-block;
+  margin-right: 5.26315789%;
+}
+/* line 18, ../sass/_intro.scss */
+.section-intro__logos > li > img {
+  width: 100%;
+}
+/* line 20, ../sass/_intro.scss */
+.section-intro__logos > li > img.bb {
+  width: 75%;
+}
+
+/* line 1, ../sass/_about.scss */
+.section-about {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 233, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 233, 0, 0.15) 50%, rgba(255, 233, 0, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 233, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 233, 0, 0.15) 50%, rgba(255, 233, 0, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 233, 0, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 233, 0, 0.15) 50%, rgba(255, 233, 0, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+}
+/* line 3, ../sass/_about.scss */
 .section-about .section-content {
   text-align: center;
 }
 @media (min-width: 992px) {
-  /* line 2, ../sass/_about.scss */
+  /* line 3, ../sass/_about.scss */
   .section-about .section-content {
     margin-left: 6.77966102%;
     margin-right: 6.77966102%;
@@ -8286,7 +8341,7 @@ tbody.collapse.in {
   width: 100%;
 }
 
-/* line 2, ../sass/_sponsor.scss */
+/* line 2, ../sass/_organiser.scss */
 .section-organiser .organiser {
   width: 100%;
   float: left;
@@ -8301,7 +8356,7 @@ tbody.collapse.in {
   clear: none;
 }
 @media (min-width: 992px) {
-  /* line 2, ../sass/_sponsor.scss */
+  /* line 2, ../sass/_organiser.scss */
   .section-organiser .organiser {
     width: 32.20338983%;
     float: left;
@@ -8326,9 +8381,71 @@ tbody.collapse.in {
     clear: none;
   }
 }
-/* line 10, ../sass/_sponsor.scss */
+/* line 10, ../sass/_organiser.scss */
 .section-organiser .organiser img {
   width: 100%;
+}
+
+/* line 1, ../sass/_contact.scss */
+.section-contact {
+  background-color: #4c4f54;
+}
+/* line 3, ../sass/_contact.scss */
+.section-contact .section-content {
+  margin-left: 21.05263158%;
+  margin-right: 21.05263158%;
+}
+/* line 6, ../sass/_contact.scss */
+.section-contact .section-title {
+  color: #fff;
+}
+/* line 8, ../sass/_contact.scss */
+.section-contact .section-title:after {
+  background-color: #fff;
+}
+/* line 13, ../sass/_contact.scss */
+.section-contact .form-group {
+  width: 49%;
+}
+/* line 17, ../sass/_contact.scss */
+.section-contact .form-group.textarea {
+  width: 100%;
+  margin-right: 0;
+}
+/* line 22, ../sass/_contact.scss */
+.section-contact .form-group.fullwidth {
+  float: none;
+  width: 100%;
+}
+/* line 28, ../sass/_contact.scss */
+.section-contact .form-group .form-control {
+  border: none;
+  background-color: #7d8189;
+  height: auto;
+  font-size: 1.28571429em;
+  line-height: 1.33333333em;
+  outline: 0;
+  padding: 15px 15px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 36, ../sass/_contact.scss */
+.section-contact .form-group .form-control:focus {
+  background-color: #fff;
+}
+/* line 41, ../sass/_contact.scss */
+.section-contact .btn-contact {
+  margin-top: 1.71428571em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.71428571em;
+  line-height: 2em;
+  padding: 0 80px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
 }
 
 /* line 1, ../sass/_theme.scss */
@@ -8347,7 +8464,7 @@ html {
 
 /* line 14, ../sass/_theme.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 /* line 18, ../sass/_theme.scss */
@@ -8362,6 +8479,15 @@ h1, h2, h3, h4, h5, h6 {
 .container:after {
   content: " ";
   display: block;
+  clear: both;
+}
+/* line 14, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container:after {
   clear: both;
 }
 @media (min-width: 768px) {
@@ -8405,4 +8531,15 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     clear: both;
   }
+}
+
+/* line 44, ../sass/_theme.scss */
+.btn-cta {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.71428571em;
+  line-height: 2em;
+  padding: 0 80px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
 }

@@ -1,0 +1,49 @@
+.section-contact {
+	background-color:#4c4f54;
+	.section-content {
+		@include squish(span(1));
+	}
+	.section-title {
+		color:#fff;
+		&:after{
+			background-color: #fff;
+		}
+	}
+
+	.form-group {
+		
+		width:span(49%);
+		
+		&.textarea {
+			width:span(100%);
+			margin-right:0;
+		}
+		
+		&.fullwidth {
+			float:none;
+			width:span(100%);
+
+		}
+	}
+	.form-group .form-control {
+		border:none;
+		background-color: lighten(#4c4f54,20%);
+		height: auto;
+		@include adjust-font-size-to(18px);
+		outline: 0;
+		padding: 15px 15px;
+	  	@include box-shadow(none);
+	  	&:focus {
+			background-color:#fff;
+	  	}
+	}
+
+	.btn-contact {
+		@include margin-leader(1);
+		@include center-block;
+		font-family: "Montserrat", sans-serif;
+		@include adjust-font-size-to(24px);
+		padding:0 80px;
+		@include border-radius(30px);
+	}
+}

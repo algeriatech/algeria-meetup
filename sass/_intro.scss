@@ -1,0 +1,26 @@
+.section-intro {
+	@include gradient-directional($start-color: #FDE3A7, $end-color: #C5EFF7, $deg: 60deg);
+	
+	text-align:center;
+		h1,h2,.date-location {
+			@include margin-trailer(1);
+		}
+	&__logos {
+		list-style-type: none;
+		list-style: none;
+		@include center-block;
+			@include margin-trailer(2);
+		> li {
+			text-align: center;
+			width:span(1 of 12);
+			display: inline-block;
+			margin-right: gutter();
+			> img {
+				width: 100%;
+				&.bb {
+					width: 75%;
+				}
+			}
+		}
+	}
+}

@@ -12,11 +12,12 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 }
 
 .container {
 	@include container;
+	@include clearfix;
 	padding-left: 15px;
 	padding-right:15px;
 	@include susy-breakpoint($screen-sm-min,$small)
@@ -32,4 +33,17 @@ h1,h2,h3,h4,h5,h6 {
 	{
 		@include container(85.714285714em);
 	}
+}
+
+
+.section-contact {
+
+}
+
+
+.btn-cta {
+	font-family: "Montserrat", sans-serif;
+		@include adjust-font-size-to(24px);
+		padding:0 80px;
+		@include border-radius(30px);
 }

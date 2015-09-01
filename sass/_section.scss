@@ -9,10 +9,22 @@
 
 	&-header {
 		text-align: center;
+		@include margin-trailer(4);
 	}
 	&-title {
 		text-transform: uppercase;
 		text-align: center;
+		position:relative;
+		&:after {
+			background-color:#000;
+			height: 3px;
+			content: '';
+			width:100px;
+			top:152%;
+			left:46%;
+			//right:50%;
+			position:absolute;
+		}
 	}
 	
 	&-content {

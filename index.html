@@ -41,34 +41,35 @@
 <!-- NAVBAR
 ================================================== -->
 
-    <header id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
+    
+        <header id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="pull-left"><a class="page-scroll " href="#intro">Algiers Meetup</a></li>
+                        <li><a class="page-scroll" href="#intro">Home</a></li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#meetups">Meetups</a></li>
+                        <li><a class="page-scroll" href="#organiser">Organisers</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+        
+                        <li class="pull-right"><a class="page-scroll" href="#">Talk proposal</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </div>
-                
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="pull-left"><a class="page-scroll " href="#intro">Algiers Meetup</a></li>
-                    <li><a class="page-scroll" href="#intro">Home</a></li>
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#meetups">Meetups</a></li>
-                    <li><a class="page-scroll" href="#organiser">Organisers</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
-
-                    <li class="pull-right"><a class="page-scroll" href="#">Talk proposal</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div>
-    </header>
+        </header>
 
 
 
@@ -81,6 +82,20 @@
         <div class="content-wrapper">
             <div class="container">
                 <h1>Next meetup</h1>
+                <h2>"JavaScript Frameworks & Front-End Architecture"</h2>
+                <div class="date-location">
+                    <h3>Saturday, October 3rd at Djezzy Training Center, Bir Mourad Rais, Algiers</h3>
+                </div>
+                <ul class="section-intro__logos">
+                    <li ><img class="ang" src="img/angular-js.png" alt=""></li>
+                    <li ><img class="bb" src="img/backbone-js.png" alt=""></li>
+                    <li ><img class="emb" src="img/emberjs-logo.png" alt=""></li>
+                    <li ><img class="rea" src="img/react-js.png" alt=""></li>
+                </ul>
+
+                <a href="#" class="btn btn-success btn-cta">
+                    I want to attend
+                </a>
             </div>
         </div>
     </section>
@@ -185,9 +200,31 @@
             </header>
             
                 <div class="section-content">
-                    <p>Algiers Developers Meetup is an event-driven community about software, web and mobile technologies. Meetups are held every month around a given topic related to programming.
-                    
-                    </p>
+                   <form action="" method="POST" role="form">
+                       
+                   
+                       <div class="form-group pull-left">
+                           <label class="sr-only" for="fullname">Full name</label>
+                           <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Fullname">
+                       </div>
+
+                       <div class="form-group pull-right">
+                           <label class="sr-only" for="email">Email</label>
+                           <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+                       </div>
+                       <!--<div class="form-group">
+                           <label class="sr-only" for="subject">Subject</label>
+                           <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject">
+                       </div>-->
+                       <div class="form-group fullwidth">
+                           <label class="sr-only" for="message">Message</label>
+                           <textarea rows="10" name="message" class="form-control" id="message" placeholder="Message"></textarea>
+                       </div>
+                   
+                       
+                   
+                       <button type="submit" class="btn btn-primary btn-contact">Send</button>
+                   </form>
                 </div>
             </div>
         </div>
