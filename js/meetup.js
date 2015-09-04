@@ -1,73 +1,84 @@
 if (typeof meetup === 'undefined') meetup = {};
 
 meetup = {
-	init:function(){
+	init: function() {
 		this.setSectionHeight();
 		this.initScroller();
 		this.spyScroll();
-		$(window).on('resize',function(e){
-            meetup.setSectionHeight();
-            meetup.initScroller();
-            meetup.spyScroll();
-        });
+		$(window).on('resize', function(e) {
+			meetup.setSectionHeight();
+			meetup.initScroller();
+			meetup.spyScroll();
+		});
+		this.initMeetupClick();
 	},
 
 	//bind bootstrap spy scroll plugin
-	spyScroll:function() {
-         var $navtop = $('#site-nav'),
-        
-        offset  = $navtop.outerHeight();
+	spyScroll: function() {
+		var $navtop = $('#site-nav'),
 
-        
+			offset = $navtop.outerHeight();
 
-        $('body').scrollspy({ 
-            target: '#site-nav',
-            offset:offset
-        });
-    },
+
+
+		$('body').scrollspy({
+			target: '#site-nav',
+			offset: offset
+		});
+	},
 
 	//bind scrolling when clicking in the navbar menu
-	initScroller:function() {
-        $('a.page-scroll').bind('click', function(event) {
-           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 900,'easeInOutExpo');
-            return false;
-          }
-        }
-        });
-    },
+	initScroller: function() {
+		$('a.page-scroll').bind('click', function(event) {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 900, 'easeInOutExpo');
+					return false;
+				}
+			}
+		});
+	},
 
-    //make section fits the screen height
-	setSectionHeight:function(){
-		aboutSection    = $('.section-about');
-	    organiserSection = $('.section-organiser');
-	    meetupsSection     = $('.section-meetups');
-	    
-	    contactSection  = $('.section-contact');
+	//make section fits the screen height
+	setSectionHeight: function() {
+		aboutSection = $('.section-about');
+		organiserSection = $('.section-organiser');
+		meetupsSection = $('.section-meetups');
 
-	    $navtop = $('#site-nav'),
-	    $section = $('.section'),
-	    offset  = $navtop.outerHeight();
+		contactSection = $('.section-contact');
 
-	    $section.each(function(i,section){
-	    	$(section).css('padding-top',offset)
-	    });
+		$navtop = $('#site-nav'),
+		$section = $('.section'),
+		offset = $navtop.outerHeight();
 
-	    windowHeight    = $(window).height();
-	    aboutHeight     =  Math.round(0.9 * windowHeight);
-	    sectionHeight   =  Math.round(0.7 * windowHeight);
+		$section.each(function(i, section) {
+			$(section).css('padding-top', offset)
+		});
 
-	    $('.section-intro').height(windowHeight);
+		windowHeight = $(window).height();
+		/*aboutHeight = Math.round(0.9 * windowHeight);
+		sectionHeight = Math.round(0.7 * windowHeight);*/
 
-	    $.each([aboutSection,organiserSection,meetupsSection,contactSection],function(i,section){
-	    	$(section).css('padding-bottom',offset) ;
-	        $(section).css('height',windowHeight);  
-	    });
+		$('.section-intro').height(windowHeight);
+
+		$.each([aboutSection, organiserSection, meetupsSection, contactSection], function(i, section) {
+			$(section).css('padding-bottom', offset);
+			$(section).css('height', windowHeight);
+		});
+	},
+	meetupClickHandler:function(ev)
+	{
+		ev.preventDefault();
+		var meetup =$(this).attr('id');
+		$('#meetup-modal').modal('show'); 
+
+	},
+	initMeetupClick:function(){
+		$('.section-meetups_list__item').on('click',this.meetupClickHandler);
 	}
 };
 

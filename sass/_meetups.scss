@@ -1,5 +1,55 @@
 .section-meetups {
 		@include clearfix;
+
+		.section-meetups_list {
+			@include container(100%);
+			font-family: "Montserrat",sans-serif;
+			list-style: none;
+			list-style-type: none;
+			margin:0;
+			padding:0;
+			.section-meetups_list__item {
+				width: 100%;
+				border-top:1px solid #000;
+				@include clearfix;
+				> a {
+					padding: 1em;
+					
+					display: block;
+					@include clearfix;
+					&:hover,
+					&:focus {
+						background-color: #ccc;
+					}
+				}
+				&__date {
+					width: span(2 of 12);
+					margin: 0 -4px 0 0;
+					display:inline-block;
+					vertical-align: middle;
+				}
+				&__title {
+					font-size: 2em;
+					width: span(8 of 12);
+					text-align: center;
+					display:inline-block;
+					vertical-align: middle;
+					margin: 0 -4px 0 0;
+				}
+				&__action {
+					width: span(2 of 12 last);
+					
+					margin: 0 -4px 0 0;
+					display:inline-block;
+					vertical-align: middle;
+					i {
+						float:right;
+						
+					}
+				}
+			}
+		}
+}
 	.speaker {
 		@include gallery(12 of 12);
 		float: none;
@@ -12,4 +62,3 @@
 			width: 100%;
 		}
 	}
-}

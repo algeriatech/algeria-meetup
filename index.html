@@ -119,12 +119,42 @@
 <section id="meetups" class="section section-meetups">
         <div class="content-wrapper">
             <div class="container">
-            <header class="section-header">
-                <h1 class="section-title">Meetups</h1>
-            </header>
+                <header class="section-header">
+                    <h1 class="section-title">Meetups</h1>
+                </header>
+            </div>
             
                 <div class="section-content">
-                    <div class="speaker">
+                    <ul class="section-meetups_list">
+                        <li id="productivity" class="section-meetups_list__item">
+                            <a href="#">
+                                <span class="section-meetups_list__item__date">
+                                    August 22nd 2015
+                                </span>
+                                <span class="section-meetups_list__item__title">
+                                    Productivity in software development
+                                </span>
+                                <span class="section-meetups_list__item__action">
+                                    <i class="fa fa-3x fa-external-link"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li id="android" class="section-meetups_list__item">
+                            <a href="#">
+                                <span class="section-meetups_list__item__date">
+                                July 21st 2015
+                                </span>
+                                <span class="section-meetups_list__item__title">
+                                    Android meetup
+                                </span>
+                                <span class="section-meetups_list__item__action">
+                                    <i class="fa fa-3x fa-external-link"></i>
+                                </span>
+                            </a>
+
+                        </li>
+                    </ul>
+                  <!--<div class="speaker">
                         <div class="speaker__picture">
                             <img src="img/meetups/speakers/2.jpg" alt="">
                         </div>
@@ -164,8 +194,7 @@
                             <img src="img/meetups/speakers/7.jpg" alt="">
                         </div>
                         
-                    </div>
-                </div>
+                    </div>-->
             </div>
         </div>
     </section>
@@ -230,7 +259,63 @@
         </div>
     </section>
 </main>
+<div id="meetup-modal" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
 
+      <div class="speakers">
+            <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/2.jpg" alt="">
+                          </div>
+          
+                      </div>
+          
+                      <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/3.jpg" alt="">
+                          </div>
+                          
+                      </div>
+          
+                      <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/4.jpg" alt="">
+                          </div>
+                          
+                      </div>
+          
+                      <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/5.jpg" alt="">
+                          </div>
+                          
+                      </div>
+          
+                      <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/6.jpg" alt="">
+                          </div>
+                          
+                      </div>
+          
+                      <div class="speaker">
+                          <div class="speaker__picture">
+                              <img src="img/meetups/speakers/7.jpg" alt="">
+                          </div>
+                          
+                      </div>
+      </div>
+      </div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
     <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/modernizr-latest.js"></script>
