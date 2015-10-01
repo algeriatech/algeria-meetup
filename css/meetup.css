@@ -22,11 +22,11 @@ img.logo.small {
     height:50px;
 }
 
-.meetups table td {
+#meetups table td {
     padding: 10px;
 }
 
-ul.meetups {
+ul#meetups {
     list-style-type: none;
 }
 
