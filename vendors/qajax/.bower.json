@@ -1,0 +1,20 @@
+{
+  "name": "qajax",
+  "version": "0.2.4",
+  "readme": "README.md",
+  "main": "./build/qajax.min.js",
+  "dependencies": {
+    "q": "~1.0"
+  },
+  "homepage": "https://github.com/gre/qajax",
+  "_release": "0.2.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.4",
+    "commit": "4d81505dab99ad1ce8f165a4a9023756fa69df87"
+  },
+  "_source": "git://github.com/gre/qajax.git",
+  "_target": "~0.2.4",
+  "_originalSource": "qajax",
+  "_direct": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Algiers Developer Meetup",
+  "version": "1.0.0",
+  "authors": [
+    "DZ Devs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "normalize-scss": "~3.0.3",
+    "lemonade": "*",
+    "qajax": "~0.2.4",
+    "yaml-js": "~0.1.3",
+    "handlebars": "~4.0.3"
+  }
+}

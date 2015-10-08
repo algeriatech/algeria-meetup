@@ -1,0 +1,38 @@
+@import "variables";
+
+section.intro {
+    height:500px;
+    color: #eee;
+
+    text-align: center;
+    background: #444;
+    
+    background-size: cover;
+    background-position:center;
+    background-repeat:repeat, no-repeat;
+    padding:5px 25px;
+
+    // ##################
+    // ###### Links #####
+    // ##################
+    &#first-intro { background-image: url('/images/overlay.png'), url($first-intro-image); }
+    &#second-intro { background-image: url('/images/overlay.png'), url($second-intro-image); }
+    &#third-intro { background-image: url('/images/overlay.png'), url($third-intro-image); }
+
+    
+    & .intro-title {
+        margin-top:60px;
+        margin-bottom:80px;
+        padding:10px 20px;
+        border-radius: 3px;
+
+        &.bg-white {
+            color: #444;
+        }
+    }
+
+    & .intro-text {
+        line-height: 2;
+    }
+
+}

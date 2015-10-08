@@ -1,0 +1,47 @@
+// Next Meetup Section
+#meetups {
+    height:auto;
+    min-height:500px;
+    background: #34495e;
+    color:#fff;
+    padding-top: 35px;
+
+    & .heads-up{
+        & .bit-25 {
+            padding:10px 25px;
+            background: #e74c3c;
+            height: 130px;
+            line-height: 60px;
+        }
+
+        & .bit-75 {
+            background: #fff;
+            height: 130px;
+            color:#444;
+
+            & span {
+                font-size: 25px;
+                padding-left:10px;
+            }
+        }
+    }
+
+    & .speaker-avatar {
+        width:80px; height: 80px;
+        border-radius:50%;
+        float:left;
+        margin-right: 15px;
+    }
+    & .speaker-details a {
+        color:#eee;
+    }
+}
+
+.single-meetup {
+    margin-bottom:70px;
+    &:last-child { margin-bottom:15px;}
+
+    & > .frame, & .speakers {
+        padding:15px 30px;
+    }
+}
