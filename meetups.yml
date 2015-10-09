@@ -11,7 +11,7 @@ meetups:
                     speaker_1:
                         fullname: Samir Rouabhi
                         link: https://www.linkedin.com/in/rouabhi
-                        avatar: /images/meetups/speakers/samir_rouabhi.jpg
+                        avatar: images/meetups/speakers/samir_rouabhi.jpg
                         position: JavaScript Expert at Cloudestin Business Software
             presentation_3:
                 title: 5 Powerful & Non-popular Frameworks
@@ -19,7 +19,7 @@ meetups:
                     speaker_1:
                         fullname: Cherif Bouchelaghem
                         link: https://twitter.com/Cherif_b
-                        avatar: /images/meetups/speakers/cherif_bouchelaghem.jpg
+                        avatar: images/meetups/speakers/cherif_bouchelaghem.jpg
                         position: Senior Web Developer at NetBeOpen
             presentation_4:
                 title: Ember.js
@@ -27,7 +27,7 @@ meetups:
                     speaker_1:
                         fullname: Aboubakr Gasmi
                         link: https://twitter.com/g13013
-                        avatar: /images/meetups/speakers/aboubakr_gasmi.jpg
+                        avatar: images/meetups/speakers/aboubakr_gasmi.jpg
                         position: Lead Front Developer at Emploitic
             presentation_5:
                 title: React & React Native
@@ -35,7 +35,7 @@ meetups:
                     speaker_1:
                         fullname: Tedj Meabiou
                         link: https://www.linkedin.com/pub/tedj-meabiou/48/95/a63
-                        avatar: /images/meetups/speakers/tedj_meabiou.jpg
+                        avatar: images/meetups/speakers/tedj_meabiou.jpg
                         position: Web / Cloud Developer at IoGrow
             presentation_6:
                 title: AngularJS
@@ -43,7 +43,7 @@ meetups:
                     speaker_1:
                         fullname: Moncef Hassein-Bey
                         link: https://twitter.com/moncef_hbey
-                        avatar: /images/meetups/speakers/moncef_hassein-bey.jpg
+                        avatar: images/meetups/speakers/moncef_hassein-bey.jpg
                         position: Web Developer at Service Factory
             presentation_7:
                 title: Backbone.js & Marionette.js
@@ -51,7 +51,7 @@ meetups:
                     speaker_1:
                         fullname: Tarik Zakaria Benmerar
                         link: https://twitter.com/tarikbenmerar
-                        avatar: /images/meetups/speakers/tarik_zakaria_benmerar.jpg
+                        avatar: images/meetups/speakers/tarik_zakaria_benmerar.jpg
                         position: Web Developer at Acigna
 
     -
@@ -67,7 +67,7 @@ meetups:
                         fullname: Tahar Ouhrouche
                         link: https://twitter.com/touhrouche
                         position: Project Manager & Certified Scrum Master (Schlumberger)
-                        avatar: /images/meetups/speakers/tahar_ouhrouche.jpg
+                        avatar: images/meetups/speakers/tahar_ouhrouche.jpg
                         additional_info: via Hangout
             presentation_2:
                 title: Agile Philosophy & Tasks Management
@@ -76,7 +76,7 @@ meetups:
                     speaker_1:
                         fullname: Abdeslem Menacere
                         link: https://twitter.com/abdeslem_
-                        avatar: /images/meetups/speakers/abdeslem_menacere.jpg
+                        avatar: images/meetups/speakers/abdeslem_menacere.jpg
                         position: IT Manager, Emploitic
 
             presentation_3:
@@ -86,7 +86,7 @@ meetups:
                     speaker_1:
                         fullname: Ahmed Siouani
                         link: https://twitter.com/ahmedsiouani
-                        avatar: /images/meetups/speakers/ahmed_siouani.jpg
+                        avatar: images/meetups/speakers/ahmed_siouani.jpg
                         position: Lead Developer - TheFork (A TripAdvisor Company)
             presentation_4:
                 title: OOP & design patterns
@@ -95,7 +95,7 @@ meetups:
                     speaker_1:
                         fullname: Tarik Zakaria Benmerar
                         link: https://twitter.com/tarikbenmerar
-                        avatar: /images/meetups/speakers/tarik_zakaria_benmerar.jpg
+                        avatar: images/meetups/speakers/tarik_zakaria_benmerar.jpg
                         position: CEO - Manager - Acigna
             presentation_5:
                 title: Web hosting & Webmastering
@@ -103,7 +103,7 @@ meetups:
                     speaker_1:
                         fullname: Mohamed Lamine Belbachir
                         link: https://www.linkedin.com/pub/mohamed-lamine-belbachir/1b/a74/89
-                        avatar: /images/meetups/speakers/mohamed_lamine_belbachir.jpg
+                        avatar: images/meetups/speakers/mohamed_lamine_belbachir.jpg
                         position: CEO - Manager - Ayrade
     -
         title: Android Meetup
@@ -117,5 +117,5 @@ meetups:
                         fullname: Nabil Hachicha
                         link: https://twitter.com/nabil_hachicha
                         position: Android Developer at Realm
-                        avatar: /images/meetups/speakers/nabil_hachicha.jpg
+                        avatar: images/meetups/speakers/nabil_hachicha.jpg
                         description: Nabil is an avid Android fan who enjoys speaking at community-oriented conferences like Droidcon & GDG. His work as the developer behind SnappyDB helped him hone his open source development skills. He previously worked on apps in France & UK for companies like Renault, Bouygues-Telecom, Michelin, NewsUK, Unilever, and Go-Ahead. Currently, Nabil is an Android developer at Realm, replacement for SQLite & Core Data
