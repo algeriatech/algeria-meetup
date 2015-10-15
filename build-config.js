@@ -1,13 +1,14 @@
 var config = {
-    sassImportPaths: ['vendors/'],
+    sassImportPaths: [
+        JSON.parse(require('fs').readFileSync('./.bowerrc')).directory
+        // Add any sass import paths in here:
+        // ... 
+    ],
 
     paths: {
         images: {
             src:[
-                'assets/images/**/*.gif',
-                'assets/images/**/*.jpg',
-                'assets/images/**/*.jpeg',
-                'assets/images/**/*.png'
+                'assets/images/**/*.{gif,png,jpg,jpeg}',
             ],
             dest: 'images/'
         },
@@ -37,14 +38,14 @@ var config = {
             vendor: {
                 src: [
                     // A Library to help with ajax requests. The first one is actually just a dependency.
-                    'vendors/q/q.js',
-                    'vendors/qajax/src/qajax.js',
+                    'vendor/q/q.js',
+                    'vendor/qajax/src/qajax.js',
 
                     // Yaml Parser
-                    'vendors/yaml-js/yaml.min.js',
+                    'vendor/yaml-js/yaml.min.js',
 
                     // Handlebars. To ease templating.
-                    'vendors/handlebars/handlebars.min.js',
+                    'vendor/handlebars/handlebars.min.js',
                 ],
                 outFile: 'vendor.js',
                 dest: 'js/'
