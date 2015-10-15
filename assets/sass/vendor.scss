@@ -1,0 +1,29 @@
+// Vendors File
+// All it does. Is importing the vendor files. Thats it... obviously! :v
+// All imports should be relative th the 'vendors' directory on the base project directory.
+// Ex: Importing "my-lib/lib.scss", means that you have that file in: "/vendors/my-lib/lib.scss".
+// If you want to add another sass import path, checkout the 'build-config.js' file. the 'sassImportPaths' proprety.
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700); // Open Sans font... Of course!
+@import "normalize-scss/normalize";
+@import "font-awesome/scss/font-awesome";
+@import "lemonade/scss/lemonade";
+
+
+
+
+// Added on top of lemonade grid docs. Quit helpful.
+// From lemonade/scss/_config.scss
+$small:             30em; // Portrait mobile to landscape mobile
+$medium:            50em; // Portrait tablet to landscape tablet
+$large:             68.750em; // Small desktop to large desktop
+.bit-75 { width:75%; }
+.bit-25 { width:25%; }
+@media (max-width: $small) {
+    .bit-75 { width:100%; float:none !important; }
+    .bit-25 { width:100%; float:none !important; }
+}
+@media (min-width: $small) and (max-width: $medium) {
+    .bit-75 { width:100%; float:none !important; }
+    .bit-25 { width:100%; float:none !important; }
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+// Like Bootstrap's container class. Really basic stuff though!
+.container {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Utils
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-header {
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.bg-blue { background: #3498db; }
+.bg-green { background: #27ae60; }
+.bg-red { background: #c0392b; }
+.bg-white { background: #ecf0f1; }
+.to-right { float:right; }
+.to-left { float:left; }
+
+.partner-logo {
+    text-decoration: none;
+    & img {
+        width:130px; height: 80px;
+    }
+}
+
+.main-link {
+    padding:10px 15px;
+    margin:10px;
+    background: #27ae60;
+    text-align: none;
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius:4px;
+}
