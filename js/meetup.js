@@ -13,10 +13,11 @@ $(document).ready(function () {
 
             var j = 1;
             $.each(value.presentations, function( key, value ) {
-                var slides = (undefined == value.slides) ? '' : ' <a href="' + value.slides + '" target="_blank">(slides)</a>';
+                var slides = (undefined == value.slides) ? ' ' : ' <a href="' + value.slides + '" target="_blank">(slides)</a>';
+                var demo = (undefined == value.demo) ? ' ' : ' <a href="' + value.demo + '" target="_blank">(demo)</a>';
 
                 $('#meetup_' + i + ' table tbody').append('<tr><td id="meetup_' + i + '_speaker_' + j + '_picture"></td>' +
-                    '<td><b><i>' + value.title + slides + '</i></b><p id="meetup_' + i + '_speaker_' + j + '_info"></p></td></tr>'
+                    '<td><b><i>' + value.title + slides + demo + '</i></b><p id="meetup_' + i + '_speaker_' + j + '_info"></p></td></tr>'
                 );
 
                 $.each(value.speakers, function (key, value ) {
