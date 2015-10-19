@@ -7,6 +7,7 @@ meetups:
         presentations:
             presentation_1:
                 title: The future of Javascript
+                slides: http://www.slideshare.net/algiersmeetup/the-future-of-javascript-53660387
                 speakers:
                     speaker_1:
                         fullname: Samir Rouabhi
@@ -14,6 +15,7 @@ meetups:
                         position: JavaScript Expert at Cloudestin Business Software
             presentation_3:
                 title: 5 Powerful & Non-popular Frameworks
+                demo:  https://github.com/cherifGsoul/jsmeetup
                 speakers:
                     speaker_1:
                         fullname: Cherif Bouchelaghem
@@ -21,6 +23,7 @@ meetups:
                         position: Senior Web Developer at NetBeOpen
             presentation_4:
                 title: Ember.js
+                slides: http://g13013.github.io/talks/ember/algiers_meetup
                 speakers:
                     speaker_1:
                         fullname: Aboubakr Gasmi
@@ -35,6 +38,7 @@ meetups:
                         position: Web / Cloud Developer at IoGrow
             presentation_6:
                 title: AngularJS
+                demo : https://github.com/Moncef12/ng_talk_app_demo
                 speakers:
                     speaker_1:
                         fullname: Moncef Hassein-Bey
