@@ -22,7 +22,7 @@ $(document).ready(function () {
 
                 $.each(value.speakers, function (key, value ) {
                     $('#meetup_'+ i +'_speaker_'+ j + '_picture').append('<center><img src="./images/meetups/speakers/' + value.fullname.replace(/ /g, '_').toLowerCase()+'.jpg" class="speaker img-circle"/></center>');
-                    $('#meetup_'+ i +'_speaker_'+ j + '_info').append('<a href="' + value.link +'">'+ value.fullname +'</a> - <b>' + value.position +'</b>');
+                    $('#meetup_'+ i +'_speaker_'+ j + '_info').append('<a href="' + value.link +'">'+ value.fullname +'</a> - <b>' + value.position +'</b></br>');
                 })
                 j++;
             });
