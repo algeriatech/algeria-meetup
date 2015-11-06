@@ -2,7 +2,7 @@ meetups:
     -
         title: Android / Arduino
         location: Algiers
-        date: October 24th 2015
+        date: November 24th 2015
         current: true
         presentations:
             presentation_1:
