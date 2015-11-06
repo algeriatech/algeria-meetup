@@ -62,3 +62,4 @@ ul#meetups {
 .carousel-inner > .item:nth-of-type(3){background-color: #e74c3c;}
 .carousel-inner > .item:nth-of-type(4){background-color: #16a085;}
 .carousel-control.right, .carousel-control.left{background-image: none;}
+.navbar-brand>img{ max-height: 100%; width: auto;}
