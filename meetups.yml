@@ -2,7 +2,7 @@ meetups:
     -
         title: Android / Arduino
         location: Algiers
-        date: October 24th 2015
+        date: November 24th 2015
         current: true
         presentations:
             presentation_1:
@@ -11,39 +11,36 @@ meetups:
                     speaker_1:
                         fullname: Moussaoui Karim
                         link: https://www.linkedin.com/profile/view?id=93034643
-                        position: Core Network Engineer at OTA Algérie
+                        position: Core Network Engineer at Ota algeria 
             presentation_2:
-                title: Arduino
+                title: OWASP Mobile Top 10 Security Risks
+                speakers:
+                    speaker_1:
+                        fullname: Mennouchi Islam Azeddine
+                        link: https://dz.linkedin.com/in/islamoc
+                        position: Consultant at GPS GSM Security
+            presentation_3:
+                title: Introduction to Arduino
                 speakers:
                     speaker_1:
                         fullname: Meftah Lakhdar
                         link: https://dz.linkedin.com/in/lakhdarmeftah
                         position: Student at ESI
-            presentation_3:
-                title: Arduino
-                speakers:
-                    speaker_1:
-                        fullname: Younes Sennadj
-                        link: https://dz.linkedin.com/in/younessennadj
-                        position: Student at ESI
             presentation_4:
-                title: Material Design in Action
+                title: Material Design Overview
                 speakers:
                     speaker_1:
                         fullname: Hichem Acher
-                        link: https://twitter.com/HichemAcher
+                        link: https://dz.linkedin.com/pub/hichem-acher/59/b29/137
                         position: Mobile developer at ioGrow
             presentation_5:
-                title: Android binder & Linux IPC (Inter Process Communication)
+                title: Material Design Overview
                 speakers:
                     speaker_1:
-                        fullname: Djalal Harouni
-                        link: https://github.com/tixxdz
-                        position: Linux kernel, nmap, systemd and linux containers developer - Endocode AG
-                    speaker_2:
                         fullname: Ilyas Hanagria
-                        link: https://twitter.com/IlyasHanagria
+                        link: https://www.facebook.com/ilyas.hanagria
                         position: Android Developer at ioGrow
+            
     -
         title: JavaScript Frameworks & Front-End Architecture
         location: Algiers
