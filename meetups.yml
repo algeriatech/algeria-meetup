@@ -7,34 +7,31 @@ meetups:
         presentations:
             presentation_1:
                 title: Overview of Telco Network
+                slides:  http://www.slideshare.net/algiersmeetup/overview-of-telecommunication-networks
                 speakers:
                     speaker_1:
                         fullname: Moussaoui Karim
                         link: https://www.linkedin.com/profile/view?id=93034643
-                        position: Core Network Engineer at Ota algeria 
+                        position: Core Network Engineer at Ota algeria
             presentation_2:
-                title: OWASP Mobile Top 10 Security Risks
-                speakers:
-                    speaker_1:
-                        fullname: Mennouchi Islam Azeddine
-                        link: https://dz.linkedin.com/in/islamoc
-                        position: Consultant at GPS GSM Security
-            presentation_3:
                 title: Introduction to Arduino
+                slides:  http://www.slideshare.net/algiersmeetup/introduction-to-arduino-55922155
                 speakers:
                     speaker_1:
                         fullname: Meftah Lakhdar
                         link: https://dz.linkedin.com/in/lakhdarmeftah
                         position: Student at ESI
-            presentation_4:
+            presentation_3:
                 title: Material Design Overview
+                slides:  http://www.slideshare.net/algiersmeetup/material-design-for-android-55921991
                 speakers:
                     speaker_1:
                         fullname: Hichem Acher
                         link: https://dz.linkedin.com/pub/hichem-acher/59/b29/137
                         position: Mobile developer at ioGrow
-            presentation_5:
+            presentation_4:
                 title: Material Design Overview
+                slides:  http://www.slideshare.net/algiersmeetup/material-design-for-android-55921991
                 speakers:
                     speaker_1:
                         fullname: Ilyas Hanagria
