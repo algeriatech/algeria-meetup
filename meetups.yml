@@ -1,9 +1,35 @@
 meetups:
     -
+        title: PHP Frameworks
+        location: Algiers
+        date: December 26th 2015
+        current: true
+        presentations:
+            presentation_1:
+                title: Symfony2 Framework
+                speakers:
+                    speaker_1:
+                        fullname: Ahmed Siouani
+                        link: https://twitter.com/ahmedsiouani
+                        position: Lead Developer at TheFork (A TripAdvisor Company)
+            presentation_2:
+                title: Laravel Framework
+                speakers:
+                    speaker_1:
+                        fullname: Koceila Hadji
+                        link: https://dz.linkedin.com/in/kouceyla-hadji-908b3134
+                        position: Consultant, Trainer and Freelancer
+            presentation_3:
+                title: Yii Framework
+                speakers:
+                    speaker_1:
+                         fullname: Cherif Bouchelaghem
+                         link: https://twitter.com/Cherif_b
+                         position: Senior Web Developer at Allegorie.tv
+    -
         title: Android / Arduino
         location: Algiers
         date: November 7th 2015
-        current: true
         presentations:
             presentation_1:
                 title: Overview of Telco Network
