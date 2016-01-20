@@ -1,12 +1,60 @@
 meetups:
     -
-        title: PHP Frameworks
+        title: Agility in Software Development
         location: Algiers
-        date: December 26th 2015
+        date: January 23rd 2016
         current: true
         presentations:
             presentation_1:
+                title: Agile Spirit
+                speakers:
+                    speaker_1:
+                        fullname: Abdeslem Menacere
+                        link: https://twitter.com/abdeslem_
+                        position: IT Manager at Emploitic
+            presentation_2:
+                title: Scrum in Action
+                speakers:
+                    speaker_1:
+                        fullname: Hacen Dadda
+                        link: https://www.linkedin.com/in/hacendadda
+                        position: CTO at HiveDigit
+            presentation_3:
+                title: The product Owner Role
+                speakers:
+                    speaker_1:
+                        fullname: Zidane Fathia
+                        link: https://www.linkedin.com/in/fathia-zidane-887b1027
+                        position: Chef de projet web at Emploitic
+            presentation_4:
+                title: The product Owner Role
+                speakers:
+                    speaker_1:
+                        fullname: Abdelaziz Kemouche
+                        link: https://twitter.com/KmAziz
+                        position: Product Owner at Emploitic
+            presentation_5:
+                title: REX, Agility at Icosnet
+                speakers:
+                    speaker_1:
+                        fullname: Billel Loubar
+                        link: https://www.linkedin.com/in/loubarbillel
+                        position: Directeur technique at Icosnet
+            presentation_6:
+                title: Agile estimations techniques (Workshop)
+                speakers:
+                    speaker_1:
+                        fullname: Slimane Louanas
+                        link: https://dz.linkedin.com/in/louanas
+                        position: web developer & Scrum Master at Emploitic
+    -
+        title: PHP Frameworks
+        location: Algiers
+        date: December 26th 2015
+        presentations:
+            presentation_1:
                 title: Symfony2 Framework
+                slides: http://ahsio.com/algiers-meetup-5-symfony/
                 speakers:
                     speaker_1:
                         fullname: Ahmed Siouani
@@ -14,6 +62,7 @@ meetups:
                         position: Lead Developer at TheFork (A TripAdvisor Company)
             presentation_2:
                 title: Laravel Framework
+                slides: http://slides.com/kouceylahadji-1/laravel#/
                 speakers:
                     speaker_1:
                         fullname: Koceila Hadji
@@ -21,6 +70,7 @@ meetups:
                         position: Consultant, Trainer and Freelancer
             presentation_3:
                 title: Yii Framework
+                slides: http://cherifgsoul.github.io/yii2-slides/
                 speakers:
                     speaker_1:
                          fullname: Cherif Bouchelaghem
