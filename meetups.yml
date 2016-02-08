@@ -7,6 +7,7 @@ meetups:
         presentations:
             presentation_1:
                 title: Agile Spirit
+                level: Beginners
                 speakers:
                     speaker_1:
                         fullname: Abdeslem Menacere
@@ -14,6 +15,7 @@ meetups:
                         position: IT Manager at Emploitic
             presentation_2:
                 title: Scrum in Action
+                level: Beginners
                 speakers:
                     speaker_1:
                         fullname: Hacen Dadda
@@ -21,6 +23,8 @@ meetups:
                         position: CTO at HiveDigit
             presentation_3:
                 title: The product Owner Role
+                level: Intermediates
+                slides: http://fr.slideshare.net/AbdelazizKemouche/algiers-tech-meetup-product-owner-role-janvier-2016
                 speakers:
                     speaker_1:
                         fullname: Zidane Fathia
@@ -28,6 +32,8 @@ meetups:
                         position: Chef de projet web at Emploitic
             presentation_4:
                 title: The product Owner Role
+                level: Beginners
+                slides: http://fr.slideshare.net/AbdelazizKemouche/algiers-tech-meetup-product-owner-role-janvier-2016
                 speakers:
                     speaker_1:
                         fullname: Abdelaziz Kemouche
@@ -35,6 +41,7 @@ meetups:
                         position: Product Owner at Emploitic
             presentation_5:
                 title: REX, Agility at Icosnet
+                level: Intermediates
                 speakers:
                     speaker_1:
                         fullname: Billel Loubar
@@ -42,6 +49,7 @@ meetups:
                         position: Directeur technique at Icosnet
             presentation_6:
                 title: Agile estimations techniques (Workshop)
+                level: Intermediates
                 speakers:
                     speaker_1:
                         fullname: Slimane Louanas
