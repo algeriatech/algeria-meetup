@@ -13,6 +13,8 @@ Informations about meetups comes from a YAML file ```meetups.yml```. You should 
         presentations:
             presentation_1:
                 title: Presentation title
+                level: [beginners|intermediates|advanced|experts]
+                slides: http://my_presentation
                 speakers:
                     speaker_1:
                         fullname: Speaker's firstname & lastname
