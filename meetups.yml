@@ -1,9 +1,78 @@
 meetups:
     -
+        title: Hybrid Mobile App Development
+        location: Algiers
+        date: February 20th 2016
+        current: true
+        presentations:
+            presentation_1:
+                title: Halide - a Language for Image Processing
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Riyadh Baghdadi
+                        link: http://people.csail.mit.edu/baghdadi/
+                        position: Researcher at MIT
+            presentation_2:
+                title: Be-Bound SDK
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Melvin Biamont
+                        link: https://www.linkedin.com/in/melvin-biamont-4478a0b2
+                        position: Lead Developer at Be-Bound
+            presentation_3:
+                title: Initiation to Unity3D (World of games)
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Younes Sennadj
+                        link: https://dz.linkedin.com/in/younessennadj
+                        position: Student at ESI
+            presentation_4:
+                title: Introduction to react-native
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Sidali Hallak
+                        link: https://www.linkedin.com/in/sidalihallak
+                        position: Software Engineer at Io Grow
+            presentation_5:
+                title: Ionic and Hybrid Apps Story !
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Houssem Yahiaoui
+                        link: https://twitter.com/_hcodex
+                        position: Etudiant / GDG Manager at USDB
+            presentation_6:
+                title: Titanium,  native and cross-platform apps with Javascript
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Ayoub Zamouchi
+                        link: http://www.linkedin.com/in/ayoubzamouchi
+                        position: Mobile Developper at DzMob
+            presentation_7:
+                title: Phonegap in Action
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Mohamed El Amine Djedidi
+                        link: https://www.linkedin.com/in/amine-djedidi-01932446
+                        position: Web /Mobile Developer at FGS
+            presentation_8:
+                title: Be-Bound SDK (workshop)
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Benmammari Abderrezak
+                        link: https://www.linkedin.com/in/benmammari-zakovitch-02a56687
+                        position: Android Developer at Be-Bound
+    -
         title: Agility in Software Development
         location: Algiers
         date: January 23rd 2016
-        current: true
         presentations:
             presentation_1:
                 title: Agile Spirit
