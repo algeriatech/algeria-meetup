@@ -5,7 +5,7 @@ $(document).ready(function () {
 
         $.each(doc.meetups, function( key, value ) {
             var display = (value.current != true) ? ' style="display:none;"': '';
-            $('#meetups').append(
+            $('#meetup-list').append(
                 '<br/><li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>' +
                 '<a href="#" id="'+ i +'" class="trigger">'+ value.title +' - ' + value.location + ', '+ value.date +'</a>' +
                 '<div id="meetup_'+ i +'"' + display + '></br><table><tbody>'
@@ -29,7 +29,7 @@ $(document).ready(function () {
             });
             i++;
 
-            $('#meetups').append('</tbody></table></div></li>');
+            $('#meetup-list').append('</tbody></table></div></li>');
         });
 
         $('.trigger').click(function () {
@@ -37,5 +37,15 @@ $(document).ready(function () {
 
             return false;
         });
+    });
+
+    // Load Manifesto content
+    $.get('./content/manifesto.html', function(data) {
+        $('div#manifesto').html(data).hide();
+    });
+
+    $('a.show').click(function() {
+        $($(this).attr('href')).show();
+        $('#meetups').hide();
     });
 });
