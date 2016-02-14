@@ -75,8 +75,9 @@ meetups:
         date: January 23rd 2016
         presentations:
             presentation_1:
-                title: Agile Spirit
+                title: Wedding Dresses & Agile Priciples
                 level: Beginners
+                slides: http://fr.slideshare.net/abdeslemm/wedding-dresses-agile-priciples-58027758
                 speakers:
                     speaker_1:
                         fullname: Abdeslem Menacere
@@ -85,6 +86,7 @@ meetups:
             presentation_2:
                 title: Scrum in Action
                 level: Beginners
+                slides: http://fr.slideshare.net/hacenfiras/scrum-in-action-algiers-tech-meetup
                 speakers:
                     speaker_1:
                         fullname: Hacen Dadda
@@ -111,6 +113,7 @@ meetups:
             presentation_5:
                 title: REX, Agility at Icosnet
                 level: Intermediates
+                slides: http://www.slideshare.net/algiersmeetup/rex-agility-at-icosnet
                 speakers:
                     speaker_1:
                         fullname: Billel Loubar
