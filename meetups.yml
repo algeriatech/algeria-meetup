@@ -1,9 +1,54 @@
 meetups:
     -
+        title: Linux, Open Source & Security
+        location: Algiers
+        date: March 26th 2016
+        current: true
+        presentations:
+            presentation_1:
+                title: Linux Containers (namespaces, filesystems, security, systemd, docker ...)
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Djalal Harouni
+                        link: http://opendz.org
+                        position: Freelancer (systemd, Linux kernel developer and others)
+            presentation_2:
+                title: Dev Environment for Linux (Mainly KDE/Python)
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Assem Chelli
+                        link: http://www.assemchelli.com/
+                        position: Software Engineer at ioGrow
+            presentation_3:
+                title: Let's Encrypt! It’s free, automated, and open
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Omar Reda Allah Akham
+                        link: https://dz.linkedin.com/in/omar-akham-a08baa21
+                        position: IT Manager at MEGA Development Five
+            presentation_4:
+                title: SQL Injection / LFI to root
+                level: Advanced
+                speakers:
+                    speaker_1:
+                        fullname: Noureddine Bellounis
+                        link: http://www.0x890.xyz
+                        position: Infographe at Eprint Algérie
+            presentation_5:
+                title: PAAS, QQOQCCP ?
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Bouida Djelloul
+                        link: https://dz.linkedin.com/in/bouida
+                        position: CEO & Founder at HDCosnulting
+    -
         title: Hybrid Mobile App Development
         location: Algiers
         date: February 20th 2016
-        current: true
         presentations:
             presentation_1:
                 title: Halide - a Language for Image Processing
