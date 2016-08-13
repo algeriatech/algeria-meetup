@@ -55,7 +55,7 @@ ul#meetups {
 | BG Slider
 |------------------------------------------------------------------------------------
 */
-.carousel .item , #myCarousel{height: 360px;}
+.carousel .item , #myCarousel{height: 320px;}
 .carousel-inner > .item > img{display: none; }
 .carousel-inner > .item:nth-of-type(1){background-color: #8585ad;}
 .carousel-inner > .item:nth-of-type(2){background-color: #9494b8;}
@@ -92,7 +92,7 @@ ul#meetups {
 }
 
 .carousel-caption-first {
-    height: 360px;
+    height: 330px;
 }
 
 h2#current-agenda {
