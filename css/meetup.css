@@ -55,7 +55,7 @@ ul#meetups {
 | BG Slider
 |------------------------------------------------------------------------------------
 */
-.carousel .item , #myCarousel{height: 500px;}
+.carousel .item , #myCarousel{height: 360px;}
 .carousel-inner > .item > img{display: none; }
 .carousel-inner > .item:nth-of-type(1){background-color: #8585ad;}
 .carousel-inner > .item:nth-of-type(2){background-color: #9494b8;}
@@ -63,3 +63,43 @@ ul#meetups {
 .carousel-inner > .item:nth-of-type(4){background-color: #8585ad;}
 .carousel-control.right, .carousel-control.left{background-image: none;}
 .navbar-brand>img{ max-height: 100%; width: auto;}
+
+.background-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+
+    display: block;
+    background-image: url('./../images/algiers-meetup-1.jpg'), url('./../images/algiers-meetup-2.jpg');
+    background-position: left, right;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.announcer h1,h2 {
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.announcer p {
+    #color: lightgray;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.carousel-caption-first {
+    height: 360px;
+}
+
+h2#current-agenda {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carousel {
+    margin-bottom: 15px;
+}

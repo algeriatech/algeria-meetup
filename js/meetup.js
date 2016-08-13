@@ -6,7 +6,7 @@ $(document).ready(function () {
         $.each(doc.meetups, function( key, value ) {
             var display = (value.current != true) ? ' style="display:none;"': '';
             $('#meetup-list').append(
-                '<br/><li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>' +
+                '<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> ' +
                 '<a href="#" id="'+ i +'" class="trigger">'+ value.title +' - ' + value.location + ', '+ value.date +'</a>' +
                 '<div id="meetup_'+ i +'"' + display + '></br><table><tbody>'
             );

@@ -3,7 +3,6 @@ meetups:
         title: Linux, Open Source & Security
         location: Algiers
         date: March 26th 2016
-        current: true
         presentations:
             presentation_1:
                 title: Linux Containers (namespaces, filesystems, security, systemd, docker ...)
