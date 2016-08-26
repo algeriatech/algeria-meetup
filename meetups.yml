@@ -1,5 +1,43 @@
 meetups:
     -
+        title: Modern Web Development
+        location: Algiers
+        date: August 27th 2016
+        current: true
+        presentations:
+            presentation_1:
+                title: Getting started with Angular 2
+                level: beginners
+                speakers:
+                    speaker_1:
+                        fullname: Ahmed Siouani
+                        link: https://twitter.com/ahmedsiouani
+                        position: Lead Developer - TheFork (A TripAdvisor Company)
+            presentation_2:
+                title: Getting in depth with Angular
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Nacim Idjakirene
+                        link: https://www.linkedin.com/in/nacim-idjakirene-b0182632
+                        position: Frontend engineer - RedFabriQ
+            presentation_3:
+                title: Getting started with React and Redux
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Riad Benguella
+                        link: https://twitter.com/riadbenguella
+                        position: Web Developer / CEO at Rizeway
+            presentation_4:
+                title: Progressive Web Apps
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Houssem Yahiaoui
+                        link: https://twitter.com/_hcodex
+                        position: Etudiant / GDG Manager at USDB
+    -
         title: Linux, Open Source & Security
         location: Algiers
         date: March 26th 2016
