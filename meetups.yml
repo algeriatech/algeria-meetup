@@ -13,17 +13,10 @@ meetups:
                         fullname: Ahmed Siouani
                         link: https://twitter.com/ahmedsiouani
                         position: Lead Developer - TheFork (A TripAdvisor Company)
-            presentation_2:
-                title: Getting in depth with Angular
-                level: Intermediate
-                speakers:
-                    speaker_1:
-                        fullname: Nacim Idjakirene
-                        link: https://www.linkedin.com/in/nacim-idjakirene-b0182632
-                        position: Frontend engineer - RedFabriQ
             presentation_3:
                 title: Getting started with React and Redux
                 level: Beginners
+                slides: http://prez-redux.surge.sh/
                 speakers:
                     speaker_1:
                         fullname: Riad Benguella
@@ -32,6 +25,7 @@ meetups:
             presentation_4:
                 title: Progressive Web Apps
                 level: Beginners
+                slides: https://speakerdeck.com/hcodex/progressive-web-applcations
                 speakers:
                     speaker_1:
                         fullname: Houssem Yahiaoui
