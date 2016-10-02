@@ -1,13 +1,50 @@
 meetups:
     -
-        title: Modern Web Development
+        title: SQL vs NoSQL Databases
         location: Algiers
-        date: August 27th 2016
+        date: October 8th 2016
         current: true
         presentations:
             presentation_1:
+                title: Prentation of Oracle database products
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Aguedal Yazid
+                        link: https://dz.linkedin.com/in/yazidaguedal
+                        position: Oracle DBA Consultant at Ooredoo
+            presentation_2:
+                title: SQL Server - High Availability & Always On
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Zakaria Smahi
+                        link: https://dz.linkedin.com/in/zsmahi
+                        position: .net full stack developer at Office National du Pèlerinage et de la Omra (ONPO)
+            presentation_3:
+                title: Getting started withMongoDB
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Khabil Aicha
+                        link: https://www.linkedin.com/in/akhabil
+                        position: Responsable IT at Faculté des sciences de l'information d'Alger III
+            presentation_4:
+                title: Building Realtime Apps with Firebase
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Houssem Yahiaoui
+                        link: https://twitter.com/_hcodex
+                        position: Etudiant / GDG Manager at USDB
+    -
+        title: Modern Web Development
+        location: Algiers
+        date: August 27th 2016
+        presentations:
+            presentation_1:
                 title: Getting started with Angular 2
-                level: beginners
+                level: Beginners
                 speakers:
                     speaker_1:
                         fullname: Ahmed Siouani
