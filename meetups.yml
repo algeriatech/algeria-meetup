@@ -22,7 +22,7 @@ meetups:
                         link: https://dz.linkedin.com/in/zsmahi
                         position: .net full stack developer at Office National du Pèlerinage et de la Omra (ONPO)
             presentation_3:
-                title: Getting started withMongoDB
+                title: Getting started with MongoDB
                 level: Beginners
                 speakers:
                     speaker_1:
