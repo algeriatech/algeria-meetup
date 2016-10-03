@@ -6,7 +6,7 @@ meetups:
         current: true
         presentations:
             presentation_1:
-                title: Prentation of Oracle database products
+                title: Presentation of Oracle database products
                 level: Beginners
                 speakers:
                     speaker_1:
