@@ -8,22 +8,16 @@ meetups:
             presentation_1:
                 title: Presentation of Oracle database products
                 level: Beginners
+                slides: http://www.slideshare.net/algiersmeetup/presentation-of-oracle-database-products
                 speakers:
                     speaker_1:
                         fullname: Aguedal Yazid
                         link: https://dz.linkedin.com/in/yazidaguedal
                         position: Oracle DBA Consultant at Ooredoo
-            presentation_2:
-                title: SQL Server - High Availability & Always On
-                level: Intermediate
-                speakers:
-                    speaker_1:
-                        fullname: Zakaria Smahi
-                        link: https://dz.linkedin.com/in/zsmahi
-                        position: .net full stack developer at Office National du Pèlerinage et de la Omra (ONPO)
             presentation_3:
                 title: Getting started with MongoDB
                 level: Beginners
+                slides: http://www.slideshare.net/algiersmeetup/introduction-to-mongodb-67199101
                 speakers:
                     speaker_1:
                         fullname: Khabil Aicha
@@ -32,6 +26,7 @@ meetups:
             presentation_4:
                 title: Building Realtime Apps with Firebase
                 level: Intermediate
+                slides: http://www.slideshare.net/algiersmeetup/introducing-firebase-by-google
                 speakers:
                     speaker_1:
                         fullname: Houssem Yahiaoui
