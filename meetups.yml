@@ -1,9 +1,62 @@
 meetups:
     -
+        title: Cloud & Virtualisation
+        location: Sylabs, Algiers
+        date: January 21st 2017
+        current: true
+        presentations:
+            presentation_1:
+                title: Understanding the Salesforce Plateforme Architecture
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Omar Saidi
+                        link: https://www.linkedin.com/in/omar-saidi-39527349
+                        position: Salesforce Senior Consultant, Project Manager at Altius-services
+            presentation_2:
+                title: DevOps ? "From idea to production"
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Habib Maalem
+                        link: https://dz.linkedin.com/in/habibmaalem
+                        position: Web Developer (Consultant)
+            presentation_3:
+                title: Introduction to GCP and Kubernetes
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Tedj Meabiou
+                        link: https://dz.linkedin.com/in/tedj-meabiou-a6309548
+                        position: Co-founder of ioGrow
+            presentation_4:
+                title: Introduction to AWS
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Mounir Kadri
+                        link: https://www.linkedin.com/in/mounir-kadri-b9989132
+                        position: Lead developer at Emploitic
+            presentation_5:
+                title: Introduction to Docker
+                level: Beginners
+                speakers:
+                    speaker_1:
+                        fullname: Ramzi Debab
+                        link: https://ramzibot.wordpress.com/
+                        position: Senior Consultant at Ooredoo
+            presentation_6:
+                title: Microsoft Azure for Developers
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Mohammed Amine Mostefai
+                        link: http://www.mostefaiamine.com/
+                        position: Enseignant / Chercheur at ESI
+    -
         title: SQL vs NoSQL Databases
         location: Algiers
         date: October 8th 2016
-        current: true
         presentations:
             presentation_1:
                 title: Presentation of Oracle database products
