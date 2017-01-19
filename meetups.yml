@@ -46,6 +46,14 @@ meetups:
                         link: https://ramzibot.wordpress.com/
                         position: Senior Consultant at Ooredoo
             presentation_6:
+                title: De la virtualisation au cloud, enjeux et pratiques
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Bilal Kalem
+                        link: https://www.linkedin.com/in/bilalkalem
+                        position: CEO at integrateur open source (IOS)
+            presentation_7:
                 title: Microsoft Azure for Developers
                 level: Intermediate
                 speakers:
