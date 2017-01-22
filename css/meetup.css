@@ -71,7 +71,7 @@ ul#meetups {
     z-index: 0;
 
     display: block;
-    background-image: url('./../images/algiers-meetup-1.jpg'), url('./../images/algiers-meetup-2.jpg');
+    background-image: url('./../images/oran-meetup1.jpg'), url('./../images/oran-meetup2.jpg');
     background-position: left, right;
     background-repeat: no-repeat;
     -webkit-filter: blur(4px);

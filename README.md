@@ -7,7 +7,7 @@ Informations about meetups comes from a YAML file ```meetups.yml```. You should 
 ```yaml
     -
         title: Main topic of the meetup
-        location: Algiers
+        location: Oran
         date: January 1st 2016
         current: true
         presentations:
