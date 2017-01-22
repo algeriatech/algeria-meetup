@@ -54,6 +54,7 @@ $(document).ready(function () {
             $('#twitter-integration').append(
                 '<a href="https://twitter.com/' + doc.twitter + '" class="twitter-follow-button" data-show-count="false">Follow @' + doc.twitter + '</a>'
             );
+            twttr.widgets.load();
         }
 
         // Render the meetup images

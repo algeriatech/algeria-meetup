@@ -70,6 +70,7 @@ ul#meetups {
     right: 0;
     z-index: 0;
     display: block;
+    background-position: left, right;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(4px);
