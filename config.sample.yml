@@ -1,0 +1,31 @@
+name: Oran Tech meetup
+description: Oran Tech Meetup Website, an event-driven community about software, web and mobile technologies. Meetups are held monthly in Oran around a given topic related to programming.
+keywords: Developer, meetup, event, technology, programming, JavaScript, software development, Tech, Oran, Wahran
+links:
+    twitter:
+        icon: twitter
+        url: https://twitter.com/OranMeetup
+    github:
+        icon: github
+        url: https://github.com/algeriatech
+    slack:
+        icon: slack
+        url: https://algeriatech.now.sh/
+talkProposalForm: MyGoogleFormURL
+twitter: OranMeetup
+meetups:
+    -
+        title: exaample  Functional programming, Elixir
+        location: Maison de jeunes El NEKKACHE U.S.T.O., Oran
+        date: January 21st 2017
+        current: true
+        presentations:
+            presentation_1:
+                title: Understanding the Salesforce Plateforme Architecture
+                level: Intermediate
+                speakers:
+                    speaker_1:
+                        fullname: Flan ben Flan
+                        link: http://flan
+                        position: Dev
+                        photo: myphoto.jpg

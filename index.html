@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Oran Tech Meetup Website,an event-driven community about software, web and mobile technologies. Meetups are held in Oran every month around a given topic related to programming ">
+    <meta name="description" content="Tech Meetup Website,an event-driven community about software, web and mobile technologies.">
+    <meta name="keywords" content="Developer, meetup, event, technology, programming, JavaScript, software development">
+    <meta name="author" content="Algeria Tech">
 
-    <meta name="keywords" content="Developer, meetup, algiers, event, technologie, programming, JavaScript, Android, software development, djezzy, gdg">
-    <meta name="author" content="">
-
-    <title>Oran Tech Meetup</title>
+    <title>Tech Meetup</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,40 +43,18 @@
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner" role="listbox" style="hieght:200px">
+    <div class="carousel-inner" role="listbox" style="min-height:200px">
         <div class="item active">
             <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
             <div class="container announcer">
                 <div class="background-image"></div>
                 <div class="carousel-caption carousel-caption-first">
                     <h1>NEXT MEETUP!</h1>
-                    <h2>X & Y</h2>
-                    <p> ,         ,   , Algeria Oran</p>
-                    <p>
-                        <!--<a class="btn btn-lg btn-success" href="#current-agenda" target="_blank" role="button">Agenda</a>-->
-                    </p>
-
-                    <p>Oran Tech Meetup is an event-driven  community about software, hardware, web and mobile technologies. Meetups are held every month around a given topic related to programming</p>
-                    <p>
+                    <div id="next-meetup"></div>
+                    <p id="description"></p>
+                    <p id="social-links">
                         <a href="https://github.com/algeriatech" class="btn btn-social-icon btn-social">
                             <i class="fa fa-github"></i>
-                        </a>
-                        <!--
-                        <a href="http://www.slideshare.net/Oranmeetup" class="btn btn-social-icon btn-social">
-                            <i class="fa fa-slideshare"></i>
-                        </a>
-
-                        <a href="https://groups.google.com/forum/#!forum/Oran-meetup" class="btn btn-social-icon btn-social">
-                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                        </a>
-
-                        <a href="https://www.flickr.com/photos/136845461@N05/" class="btn btn-social-icon btn-social">
-                            <i class="fa fa-flickr"></i>
-                        </a>
-                        -->
-
-                        <a href="https://twitter.com/OranMeetup" class="btn btn-social-icon btn-social">
-                            <i class="fa fa-twitter"></i>
                         </a>
                         <a href="https://algeriatech.now.sh" class="btn btn-social-icon btn-social">
                             <i class="fa fa-slack"></i>
@@ -110,13 +87,11 @@
 
         <div class="col-lg-3">
             <center>
-                <p><a class="btn btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSekykCy_pNGkP_Q7I1XDKVzTKZ_uK8dKrPAt0L4D6KCREZLtw/viewform" role="button">Submit your Talk proposal here</a></p>
-
-            <p></p>
-            <p><a class="show" href="#manifesto" role="button">The community Guidelines</a></p>
-                <a class="twitter-timeline" data-lang="en" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/OranMeetup">Tweets by OranMeetup</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <a href="https://twitter.com/OranMeetup" class="twitter-follow-button" data-show-count="false">Follow @OranMeetup</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <p><a href="https://github.com/algiers-meetup/algiers-meetup.github.io">Fork me on GitHub</a></p>
+                <p id="talk-proposal"></p>
+                <p></p>
+                <p><a class="show" href="#manifesto" role="button">The community Guidelines</a></p>
+                <div id="twitter-integration"></div>
+                <p><a href="https://github.com/algiers-meetup/algiers-meetup.github.io">Fork me on GitHub</a></p>
             </center>
         </div>
     </div><!-- /.row -->
@@ -136,5 +111,6 @@
 <script src="./dist/yaml/js/esprima.js"></script>
 <script src="./dist/yaml/js/js-yaml.min.js"></script>
 <script src="js/meetup.js" type="text/javascript"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
