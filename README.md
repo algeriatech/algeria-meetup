@@ -1,8 +1,11 @@
-[Algiers Developers Meetup](http://algiers-meetup.org/) is an event-driven community about software, web and mobile technologies. Meetups are held every month around a given topic related to programming.
+[Algeria Meetup](http://algiers-meetup.org/) is the tool used to generate the website for Algeria meetups
 
+# Configuration
+
+Copy `config.sample.yml` to `config.yml` and personalize the meetup's information. Note that all the images referenced in the config file, should live in the `images` folder
 
 ### How to add a new meetup?
-Informations about meetups comes from a YAML file ```meetups.yml```. You should follow the following Yaml configuration to add meetups informations,
+Informations about meetups comes from the `meetups` secfiont of the `config.yml` file. You should follow the following Yaml configuration to add meetups informations,
 
 ```yaml
     -
@@ -20,4 +23,6 @@ Informations about meetups comes from a YAML file ```meetups.yml```. You should 
                         fullname: Speaker's firstname & lastname
                         link: Speaker's blog url, twitter, ...
                         position: Speaker current job
+                        photo: image-speaker.jpg
 ````
+

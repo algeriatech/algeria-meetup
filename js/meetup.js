@@ -1,8 +1,80 @@
+function escapeAttribute(string) {
+    return string.replace(/'/g, "&#39;");
+}
+
+function injectStyle(str) {
+    var node = document.createElement('style');
+    node.innerHTML = str;
+    document.body.appendChild(node);
+}
+
 $(document).ready(function () {
     var i = 1;
-    $.get( "./meetups.yml", function( data ) {
+    $.get( "./config.yml", function( data ) {
         var doc = jsyaml.load(data);
 
+        // Render the HEAD (meta, title and description)
+        if (doc.title) {
+            document.title = doc.title;
+        }
+        if (doc.description) {
+            $('#description').html(doc.description);
+            $('meta[name=description]').remove();
+            $('head').append( '<meta name="description" content="' + escapeAttribute(doc.description) + '">' );
+        }
+        if (doc.keywords) {
+            $('meta[name=keywords]').remove();
+            $('head').append( '<meta name="keywords" content="' + escapeAttribute(doc.keywords) + '">' );
+        }
+
+        // Render the links
+        if (doc.links) {
+            $('#social-links').empty();
+            $.each(doc.links, function( key, link ){
+                $('#social-links').append(
+                    '<a href="' + escapeAttribute(link.url) + '" class="btn btn-social-icon btn-social">'+
+                        '<i class="fa fa-' + escapeAttribute(link.icon) + '"></i>'+
+                    '</a> '
+                );
+            });
+        }
+
+        // Render the talk proposal link
+        if (doc.talkProposalForm) {
+            $('#talk-proposal').html(
+                '<a class="btn btn-default" href="' + escapeAttribute(doc.talkProposalForm) + '" role="button">Submit your Talk proposal here</a>'
+            );
+        }
+
+        // Render the twitter timeline and follow button
+        if (doc.twitter) {
+            $('#twitter-integration').append(
+                '<a class="twitter-timeline" data-lang="en" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/' + doc.twitter + '">Tweets by ' + doc.twitter + '</a>'
+            );
+            $('#twitter-integration').append(
+                '<a href="https://twitter.com/' + doc.twitter + '" class="twitter-follow-button" data-show-count="false">Follow @' + doc.twitter + '</a>'
+            );
+            twttr.widgets.load();
+        }
+
+        // Render the meetup images
+        if (doc.images) {
+            var urls = $.map(doc.images, function(image) {
+                return 'url("./../images/' + image + '")';
+            });
+            injectStyle( '.background-image{ background-image: ' + urls.join(', ') +'; }' );
+        }
+
+        // Render the last meetup
+        if (doc.meetups && doc.meetups.length) {
+            var lastMeetup = doc.meetups[0];
+            $('#next-meetup').append(
+                '<h2>' + lastMeetup.title + '</h2>' +
+                '<p>' + lastMeetup.date + ' at ' + lastMeetup.location + '</p>'
+            );
+        }
+
+        // Render the meetups
         $.each(doc.meetups, function( key, value ) {
             var display = (value.current != true) ? ' style="display:none;"': '';
             $('#meetup-list').append(
@@ -22,7 +94,9 @@ $(document).ready(function () {
                 );
 
                 $.each(value.speakers, function (key, value ) {
-                    $('#meetup_'+ i +'_speaker_'+ j + '_picture').append('<center><img src="./images/meetups/speakers/' + value.fullname.replace(/ /g, '_').toLowerCase()+'.jpg" class="speaker img-circle"/></center>');
+                    if (value.photo) {
+                        $('#meetup_'+ i +'_speaker_'+ j + '_picture').append('<center><img src="./images/' + value.photo + '" class="speaker img-circle"/></center>');
+                    }
                     $('#meetup_'+ i +'_speaker_'+ j + '_info').append('<a href="' + value.link +'">'+ value.fullname +'</a> - <b>' + value.position +'</b></br>');
                 })
                 j++;
